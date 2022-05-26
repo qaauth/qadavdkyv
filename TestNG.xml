@@ -1,0 +1,91 @@
+<suite name="Dav" preserve-order="true" thread-count="1"
+	verbose="10">
+	<listeners>
+		<listener class-name="com.dav.utilities.Reporting" />
+	</listeners>
+	
+<!-- <test name="Dav1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationNewClient_01" />
+		</classes>
+	</test>
+	
+	<test name="Dav2">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationNewUser_02" />
+		</classes>
+	</test>
+	
+		  <test name="Dav3">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationNewAgent_03" />
+		</classes>
+	</test> -->
+	
+	<test name="Dav4">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationReportingMngr_04" />
+		</classes>
+	</test> 
+	
+	 <!-- <test name="Dav5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_UserInitiateSingleCase_05" />
+		</classes>
+	</test> -->
+	
+  <!-- <test name="Dav6">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_AgentInitiateSingleCase_06" />
+		</classes>
+	</test> -->
+	
+	 <!-- <test name="Dav7">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationNewClientForDkyc_07" />
+		</classes>
+	</test>
+	
+	<test name="Dav8">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationNewUser_02" />
+		</classes>
+	</test>
+	
+	<test name="Dav9">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationNewAgent_03" />
+		</classes>
+	</test>
+	
+	<test name="Dav10">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_RegistrationReportingMngr_04" />
+		</classes>
+	</test> -->
+	
+	<!-- <test name="Dav11">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_DkycUserInitiateSingleCase_08" />
+		</classes>
+	</test> -->
+	
+	<!-- <test name="Dav12">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dav.testcases.TC_DkycAgentInitiateSingleCase_09" />
+		</classes>
+	</test>  -->
+	
+</suite>

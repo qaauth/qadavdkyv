@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Dav]">
+  <listeners>
+    <listener class-name="com.dav.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="Dav4(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.dav.testcases.TC_RegistrationReportingMngr_04">
+        <methods>
+          <include name="verifyGetMyCurrentAddress"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyCreateReportingMngrForClientDetails"/>
+        </methods>
+      </class> <!-- com.dav.testcases.TC_RegistrationReportingMngr_04 -->
+    </classes>
+  </test> <!-- Dav4(failed) -->
+</suite> <!-- Failed suite [Dav] -->

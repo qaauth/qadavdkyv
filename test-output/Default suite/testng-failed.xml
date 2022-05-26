@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.iBridge.sme.testcases.TC_InsufficientBridgeSme_01"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.iBridge.sme.testcases.TC_InsufficientBridgeSme_01">
+        <methods>
+          <include name="verifyInsufficientVerifier"/>
+          <include name="verifyCostApprovalRequiredInsufficient"/>
+          <include name="verifywithdrawCaseStatusClosedByClient"/>
+          <include name="verifyInsufficiencyFulfillment"/>
+          <include name="verifyInsufficientpendingForFulfilment"/>
+          <include name="verifyApprovalRequiredInsufficient"/>
+          <include name="verifyApprovalRequiredAndInsufficientBoth"/>
+          <include name="verifyAdminUserReasonInsufficientBoth"/>
+          <include name="verifyInsufficientCasesPresentOrNot"/>
+        </methods>
+      </class> <!-- com.iBridge.sme.testcases.TC_InsufficientBridgeSme_01 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

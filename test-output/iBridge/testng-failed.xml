@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [iBridge]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.iBridge.utilities.Reporting"/>
+  </listeners>
+  <test name="iBridge">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.iBridge.testcases.TC_InitiateCasesIndividually_02"/>
+    </classes>
+  </test> <!-- iBridge -->
+  <test name="iBridge(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.iBridge.testcases.TC_InitiateCasesIndividually_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="additionalFieldInformation"/>
+        </methods>
+      </class> <!-- com.iBridge.testcases.TC_InitiateCasesIndividually_02 -->
+    </classes>
+  </test> <!-- iBridge(failed) -->
+</suite> <!-- Failed suite [iBridge] -->
